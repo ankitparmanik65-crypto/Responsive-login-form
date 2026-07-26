@@ -17,3 +17,5 @@ A modern and responsive Login Form built with HTML5, CSS3, and JavaScript, featu
 Username: abcd
 
 Password: 1234
+
+⭐ If you like this project, don't forget to Star ⭐ the repository!
