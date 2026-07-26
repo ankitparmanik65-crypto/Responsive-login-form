@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Login Form</title>
+
+    <!-- Google Font -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+    <!-- LOGIN CARD -->
+
+    <div class="login-card">
+
+
+        <h2> Login</h2>
+
+        <!-- USERNAME -->
+
+        <div class="input-box">
+            <input type="text" id="username" required>
+            <label>Username</label>
+        </div>
+
+        <!-- PASSWORD -->
+
+        <div class="input-box">
+            <input type="password" id="password" required>
+            <label>Password</label>
+        </div>
+
+        <!-- BUTTON -->
+
+        <button class="login-btn" onclick="login()">
+            SIGN IN
+        </button>
+
+        <!-- MESSAGE -->
+
+        <div class="message" id="message"></div>
+
+        <!-- FOOTER -->
+
+        <div class="footer">
+            <span><a href="#">Forgot Password?   </a></span>
+            <a href="#">sign up</a>
+        </div>
+
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
